@@ -1,0 +1,57 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background: #3C5A65;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.calculator .brand {
+    margin-bottom: 10px;
+}
+
+.calculator .brand span {
+    font-size: 18px;
+    font-weight: 600;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 9px;
+    padding: 3px;
+}
+
+.calculator .display {
+    background: #fff;
+    height: 40px;
+}
+
+.calculator .buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.calculator .buttons .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.calculator .buttons button {
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*.calculator .buttons button:nth-child(1), :nth-child(2), :nth-child(3):not(:nth-child(4)) {*/
+/*    margin-left: 5px;*/
+/*}*/
